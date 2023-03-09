@@ -9,7 +9,8 @@
   display: flex;
 }
 
-.banner, .banner-header {
+.banner,
+.banner-header {
   position: relative;
 }
 
@@ -34,6 +35,41 @@
 }
 
 .form {
-  border: 1px solid black;
+  min-width: 500px;
+}
 
+.form-content {
+  margin: 100px 25px;
+  height: 500px;
+}
+
+.form-row {
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  font-size: small;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+}
+
+input:focus {
+  border: 3px solid blue;
+  box-shadow: 1px 1px 2px 1px rgba(97, 121, 244, 0.2);
+}
+
+button[type="submit"] {
+  background-color: #596D48;
+  color: white;
+  width: 180px;
+  height: 38px;
+  margin: 25px 0px;
+  border: unset;
+  border-radius: 5px;
+  font-weight: bold;
 }
