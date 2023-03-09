@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
+.home {
+  margin: auto;
+  width: 65%;
+  display: flex;
+}
+
+.banner, .banner-header {
+  position: relative;
+}
+
+.banner-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.567);
+  bottom: 450px;
+  width: 387px;
+  height: 120px;
+}
+
+.banner-header img {
+  height: 100px;
+}
+
+.banner-header h1 {
+  color: white;
+  font-family: Norse-Bold;
+  font-size: 4rem;
+}
+
+.form {
+  border: 1px solid black;
+
+}
